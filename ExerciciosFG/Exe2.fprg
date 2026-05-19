@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe2"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 02:38:20 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjI1OjMyICI7MjM1OA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjM4OjIwICI7MjsyNDY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1" type="Real" array="False" size=""/>
+            <declare name="numero2" type="Real" array="False" size=""/>
+            <declare name="numero3" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreva um valor: &quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Escreva um valor: &quot;" newline="True"/>
+            <input variable="numero2"/>
+            <output expression="&quot;Escreva um valor: &quot;" newline="True"/>
+            <input variable="numero3"/>
+            <assign variable="media" expression="(numero1 + numero2 + numero3) / 3"/>
+            <output expression="&quot;A media entre &quot; &amp; numero1 &amp; &quot; &quot; &amp;  numero2 &amp; &quot; &quot; &amp;  numero3 &amp; &quot; &#233; igual a &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

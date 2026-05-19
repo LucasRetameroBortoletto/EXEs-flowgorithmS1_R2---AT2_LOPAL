@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe1"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 02:24:52 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjE5OjMwICI7MjM1OQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjI0OjUyICI7MTsyNDY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Digite um numero: &quot;" newline="True"/>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <input variable="numero1"/>
+            <output expression="&quot;Digite um numero &quot;" newline="True"/>
+            <input variable="numero2"/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="numero1 + numero2"/>
+            <output expression="&quot;A soma de &quot; &amp; numero1 &amp; &quot; + &quot; &amp; numero2 &amp; &quot; = &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

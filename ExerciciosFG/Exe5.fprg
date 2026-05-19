@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe5"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 04:07:01 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjM4OjI3ICI7MjM2Ng=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjA0OjA3OjAxICI7MjsyNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="grausCelsius" type="Real" array="False" size=""/>
+            <declare name="fahrenheit" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em graus celsius&quot;" newline="True"/>
+            <input variable="grausCelsius"/>
+            <assign variable="fahrenheit" expression="((grausCelsius * 9) /5) + 32"/>
+            <output expression="grausCelsius &amp; &quot; em fahrenheit &#233;: &quot; &amp; fahrenheit" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

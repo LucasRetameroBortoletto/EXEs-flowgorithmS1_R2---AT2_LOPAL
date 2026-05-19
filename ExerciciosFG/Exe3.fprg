@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe3"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 02:34:32 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjMxOjUxICI7MjM1Ng=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjM0OjMyICI7MTsyNDY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="largura" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a altura do retangulo: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite a largura do retangulo: &quot;" newline="True"/>
+            <input variable="largura"/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="altura * largura"/>
+            <output expression="&quot;A area do retangulo &#233; &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

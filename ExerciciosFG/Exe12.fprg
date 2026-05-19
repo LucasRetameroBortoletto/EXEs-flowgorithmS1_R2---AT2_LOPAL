@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe12"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 03:30:11 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjE4OjQ1ICI7MjM2NQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjMwOjExICI7MjsyNDYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantCigarros" type="Integer" array="False" size=""/>
+            <declare name="quantAnos" type="Integer" array="False" size=""/>
+            <declare name="anosDias" type="Integer" array="False" size=""/>
+            <declare name="cigarrosTotalPorAno" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cigarros por dia: &quot;" newline="True"/>
+            <input variable="quantCigarros"/>
+            <output expression="&quot;Quntidade de anos fumados: &quot;" newline="True"/>
+            <input variable="quantAnos"/>
+            <assign variable="anosDias" expression="quantAnos * 365"/>
+            <assign variable="cigarrosTotalPorAno" expression="quantCigarros * anosDias"/>
+            <declare name="diasDeVida" type="Integer" array="False" size=""/>
+            <assign variable="diasDeVida" expression="(cigarrosTotalPorAno * 10) / 1440"/>
+            <output expression="&quot;Foram perdidos &quot; &amp; diasDeVida &amp; &quot; dias de vida. &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

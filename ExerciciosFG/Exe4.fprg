@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe4"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 03:56:19 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjM0OjQzICI7MjM2MA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjU2OjE5ICI7MjsyNDc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="reais" type="Real" array="False" size=""/>
+            <declare name="dolar" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor em real&quot;" newline="True"/>
+            <input variable="reais"/>
+            <assign variable="dolar" expression="reais / 6"/>
+            <output expression="&quot;O valor (&quot; &amp; reais &amp; &quot; reais)&quot; &amp; &quot; &#233; &quot; &amp; dolar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

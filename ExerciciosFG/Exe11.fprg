@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe11"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 03:18:42 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjE0OjM5ICI7MjM2NA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjE4OjQyICI7MTsyNDcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="diasTrabalhados" type="Integer" array="False" size=""/>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o numero de dias trabalhados: &quot;" newline="True"/>
+            <input variable="diasTrabalhados"/>
+            <assign variable="salario" expression="( 6 * diasTrabalhados * 45)"/>
+            <output expression="&quot;O salario ao fim do mes sera de: &quot; &amp; salario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

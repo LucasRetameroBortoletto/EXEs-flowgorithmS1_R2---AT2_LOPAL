@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe8"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 02:57:59 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjQ5OjQxICI7MjM2NA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjU3OjU5ICI7MTsyNDgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Calculo Delta: &quot;" newline="True"/>
+            <declare name="numeroA" type="Real" array="False" size=""/>
+            <declare name="numeroB" type="Real" array="False" size=""/>
+            <declare name="numeroC" type="Real" array="False" size=""/>
+            <declare name="delta" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor A: &quot;" newline="True"/>
+            <input variable="numeroA"/>
+            <output expression="&quot;Digite o valor B: &quot;" newline="True"/>
+            <input variable="numeroB"/>
+            <output expression="&quot;Digite o valor C: &quot;" newline="True"/>
+            <input variable="numeroC"/>
+            <assign variable="delta" expression="(numeroB * numeroB)-4 * numeroA * numeroC"/>
+            <output expression="&quot;O delta de &quot; &amp; numeroA &amp; &quot; &quot; &amp; numeroB &amp; &quot; &quot; &amp; numeroC &amp; &quot; &#233; &quot; &amp; delta" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

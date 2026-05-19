@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe10"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 03:14:23 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjA2OjI2ICI7MjM2MQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjE0OjIzICI7MTsyNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kilometros" type="Real" array="False" size=""/>
+            <declare name="dias" type="Integer" array="False" size=""/>
+            <declare name="precoTotal" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade de km rodados: &quot;" newline="True"/>
+            <input variable="kilometros"/>
+            <output expression="&quot;Digite a quantidade de dias alugados: &quot;" newline="True"/>
+            <input variable="dias"/>
+            <assign variable="precoTotal" expression="(dias * 90) + (kilometros * 0.20)"/>
+            <output expression="&quot;O valor total a pagar pelos &quot; &amp; kilometros &amp; &quot; kilometros rodados e &quot; &amp; dias &amp; &quot; dias alugados  &#233;: &quot; &amp; precoTotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

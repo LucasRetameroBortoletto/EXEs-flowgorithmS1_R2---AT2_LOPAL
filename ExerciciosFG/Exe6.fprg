@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe6"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 02:49:26 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjQyOjU3ICI7MjM2NA=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjQ5OjI2ICI7MTsyNDc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="largura" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="litrosDeTinta" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a altura da parede: [metros] &quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Digite a largura da parede: [metros] &quot;" newline="True"/>
+            <input variable="largura"/>
+            <assign variable="area" expression="altura * largura"/>
+            <assign variable="litrosDeTinta" expression="area / 2"/>
+            <output expression="&quot;A area a ser pintada &#233; &quot; &amp; area &amp; &quot; metros quadrados e sera necessario &quot; &amp; litrosDeTinta &amp; &quot; litros de tinta &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

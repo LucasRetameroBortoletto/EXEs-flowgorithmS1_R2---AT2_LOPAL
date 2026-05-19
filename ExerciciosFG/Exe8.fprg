@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exe8"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-12 03:02:49 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAyOjU4OjAyICI7MjM2MQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTg2OzIwMjYtMDUtMTI7IjAzOjAyOjQ5ICI7MTsyNDcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorProduto" type="Real" array="False" size=""/>
+            <declare name="valorPromocao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor bruto do produto: &quot;" newline="True"/>
+            <input variable="valorProduto"/>
+            <assign variable="valorPromocao" expression="valorProduto - (valorProduto  * 0.05)"/>
+            <output expression="&quot;O valor: &quot; &amp; valorProduto &amp; &quot; com 5% de desconto &#233;: &quot;&amp; valorPromocao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
